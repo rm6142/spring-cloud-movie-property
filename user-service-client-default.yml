@@ -29,11 +29,11 @@ spring:
       database-platform: org.hibernate.dialect.H2Dialect
 # Enabling H2 Console
    h2:
-      console:
-         enabled:true
- 
-# Custom H2 Console URL
-         path: /h2
+    console:
+      enabled:true
+        path: /h2
+
+         
 
 #spring:
 #   datasource:
